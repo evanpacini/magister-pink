@@ -1,2 +1,3 @@
-# magister-pink
+# Magister: Pink Edition
 Turns your boring blue Magister into a vivid pink Magister.
+Log in to magister, look at the boring, blue colours it has by default.... moeah... Turn the "Magister Pink Edition" Extension on... see the amazing pink colours... refreshing...
