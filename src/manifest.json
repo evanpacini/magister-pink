@@ -1,0 +1,32 @@
+{
+  "name": "Magister Pink Edition",
+  "description": "Turns your boring blue Magister into a vivid pink Magister.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "storage"],
+  "background": {
+    "service_worker": "pinklistener.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.magister.net/*"],
+      "js": ["makeitpink.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "pink.html",
+    "default_icon": {
+      "16": "/images/iconx16.png",
+      "32": "/images/iconx32.png",
+      "48": "/images/iconx48.png",
+      "128": "/images/iconx128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/iconx16.png",
+    "32": "/images/iconx32.png",
+    "48": "/images/iconx48.png",
+    "128": "/images/iconx128.png"
+  }
+}
